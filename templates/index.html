@@ -15,14 +15,19 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="text-center mt-2 mb-4">DLS Careers.</h1>
+      <h1 class="text-center mt-2 mb-4">{{company_name}} Careers.</h1>
         <img class="img-fluid" id="img" src="/static/night.avif">
       <h2 class="text-center mt-2 mb-4" >About DLS</h2>
          <p  class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
       <h2 class="text-center mt-2 mb-4">Open positions</h2>
-        <p class="text-center">TODO - Show the jobs here</p>
-     <div class="text-center"> 
-        <button class="btn btn-primary btn-lg" >Contact Us</button>
+        <div>
+          {% for job in jobs %}
+            {% include 'job.html'%}
+          {% endfor %}
+      
+       
+      <div class="text-center "> 
+        <button class="btn btn-primary btn-lg mt-4" >Contact Us</button>
      </div>
         <p class="text-center mt-4">Copyright 2023, DLS</p>
     </div>

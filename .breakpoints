@@ -1,0 +1,18 @@
+{
+  "files": {
+    "templates/index.html": [
+      {
+        "id": "66f77c23-8d5c-4bda-ad0d-729d3daeca19",
+        "line": 24,
+        "version": 2283,
+        "index": 1424
+      },
+      {
+        "id": "4f8201a6-8c23-4989-b7ca-55ecee5bf842",
+        "line": 28,
+        "version": 2283,
+        "index": 1522
+      }
+    ]
+  }
+}
