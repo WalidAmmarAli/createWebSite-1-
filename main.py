@@ -13,13 +13,13 @@ JOBS = [
     'id': 2,
     'title': "Data Scientist",
     'location': "Remote",
-    'salary': "$600"
+    'salary': "$2000"
   },
   {
     'id': 3,
     'title': "Backend development",
     'location': "Managua, Nicaragua",
-    'salary': "$600"
+    'salary': "$800"
   },
 ]
 
